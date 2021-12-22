@@ -20,8 +20,6 @@ const CountryDetails = () => {
       {country.map((pd) => (
         <CountryDetailsCard pd={pd}></CountryDetailsCard>
       ))}
-
-      <Link to="/home">Home</Link>
     </div>
   );
 };
